@@ -1,10 +1,10 @@
-package ChatgptTest.Chatgpt;
+package chatGpt.chatgptapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ChatgptApplicationTests {
+class ChatgptApiApplicationTests {
 
 	@Test
 	void contextLoads() {
