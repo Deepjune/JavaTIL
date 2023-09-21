@@ -14,7 +14,7 @@ public class APIExamFace {
 
         try {
             String paramName = "image"; // 파라미터명은 image로 지정
-            String imgFile = "/Users/jeongjungu/Desktop/jjg.jpeg";
+            String imgFile = "/Users/jeongjungu/Desktop/test2.png";
             File uploadFile = new File(imgFile);
 
             //String apiURL = "https://openapi.naver.com/v1/vision/celebrity"; // 유명인 얼굴 인식
