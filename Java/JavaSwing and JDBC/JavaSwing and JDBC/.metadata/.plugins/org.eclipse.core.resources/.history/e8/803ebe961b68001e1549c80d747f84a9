@@ -1,0 +1,17 @@
+package exam01;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class MyFrame03 extends JFrame {
+	public MyFrame03() {
+		setSize(300, 150);
+	}
+	
+	
+	public static void main(String[] args) {
+		MyFrame03 f = new MyFrame03();
+
+	}
+
+}

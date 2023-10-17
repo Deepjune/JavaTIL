@@ -1,0 +1,20 @@
+package exam01;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class MyFrame04 extends JFrame {
+	public MyFrame04() {
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.orange);
+		
+		JButton b1 = new JButtion("Button 1");
+		
+		setSize(300, 150);
+	}
+	
+	public static void main(String[] args) {
+		MyFrame04 f = new MyFrame04();
+	}
+
+}

@@ -1,0 +1,29 @@
+package exam02;
+
+import java.awt.CardLayout;
+import java.awt.Container;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class MyFrame02 extends JFrame {
+	JButton b1,b2,b3;
+	Container cPane;
+	CardLayout layoutm;
+	
+	public MyFrame02() {
+		setTitle("BorderLayoutTest");
+		setSize(300, 150);
+		cPane = getContentPane();
+		layoutm = new CardLayout();
+		setLayout(layoutm);
+		
+		JButton b1 = new JButton("Card #1");
+	}
+	
+	public static void main(String[] args) {
+		MyFrame02 f = new MyFrame02();
+
+	}
+
+}

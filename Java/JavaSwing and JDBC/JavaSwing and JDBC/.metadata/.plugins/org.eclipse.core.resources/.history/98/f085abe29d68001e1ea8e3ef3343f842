@@ -1,0 +1,24 @@
+package exam03;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+public class TempConverter extends JFrame {
+	public TempConverter() {
+		JPanel panel = new JPanel();
+		add(panel);
+		
+		JLabel label1 = new JLabel("화씨 온도");
+		JLabel label2 = new JLabel("섭씨 온도");
+		JTextField field1 = new JTextField(15);
+	}
+	
+	
+	public static void main(String[] args) {
+		TempConverter t = new TempConverter();
+
+	}
+
+}

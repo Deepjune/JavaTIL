@@ -1,0 +1,23 @@
+package exam03;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class MyFrame extends JFrame {
+	public MyFrame() {
+		setTitle("MyFrame");
+		setSize(300,150);
+		
+		JPanel panel1 = new JPanel();
+		JPanel panel2 = new JPanel();
+		
+		JLabel label1 = new JLabel("자바 피자에 오신 것을 환영합니다. 피자의 종류를 선택하시오.");
+	}
+	
+	public static void main(String[] args) {
+		MyFrame m = new MyFrame();
+
+	}
+
+}

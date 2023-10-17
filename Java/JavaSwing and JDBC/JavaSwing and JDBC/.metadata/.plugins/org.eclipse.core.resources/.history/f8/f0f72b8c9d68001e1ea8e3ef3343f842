@@ -1,0 +1,16 @@
+package exam03;
+
+import javax.swing.JFrame;
+
+public class TempConverter extends JFrame {
+	public TempConverter() {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		TempConverter t = new TempConverter();
+
+	}
+
+}

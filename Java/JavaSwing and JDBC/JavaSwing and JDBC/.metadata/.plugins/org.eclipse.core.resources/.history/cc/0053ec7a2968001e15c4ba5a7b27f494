@@ -1,0 +1,22 @@
+package exam03;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class ImageLabelTest extends JFrame {
+	private JPanel panel;
+	private JLabel label;
+	private JButton button;
+	
+	public ImageLabelTest() {
+		setTitle("레이블 테스트");
+	}
+	
+	public static void main(String[] args) {
+		ImageLabelTest img = new ImageLabelTest();
+
+	}
+
+}

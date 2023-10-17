@@ -1,0 +1,26 @@
+package exam02;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class BoderLayoutTest extends JFrame {
+	public BoderLayoutTest() {
+		setTitle("BorderLayoutTest");
+		setSize(300,150);
+		
+		JPanel panel = new JPanel(new BorderLayout());
+		JButton button1 = new JButton();
+		JButton button2 = new JButton();
+		JButton button3 = new JButton();
+		JButton button4 = new JButton();
+	}
+	
+	public static void main(String[] args) {
+		BoderLayoutTest b = new BoderLayoutTest();
+
+	}
+
+}

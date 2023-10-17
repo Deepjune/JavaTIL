@@ -1,0 +1,17 @@
+package exam03;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class TempConverter extends JFrame {
+	public TempConverter() {
+		JPanel panel = new JPanel();
+	}
+	
+	
+	public static void main(String[] args) {
+		TempConverter t = new TempConverter();
+
+	}
+
+}

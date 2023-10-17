@@ -1,0 +1,44 @@
+package exam01;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class MyFrame05 extends JFrame {
+	public MyFrame05() {
+		setSize(300, 150);
+		setTitle("");
+		
+		setLayout(new GridLayout(1,2));
+		
+		JPanel p1 = new JPanel();
+		JPanel p2 = new JPanel();
+		
+		JButton b1 = new JButton("button1");
+		JButton b2 = new JButton("button2");
+		
+		add(p1);
+		p1.setBackground(Color.yellow);
+		b1.setBackground(Color.pink);
+		p1.add(b1);
+	
+		add(p2);
+		p2.setBackground(Color.blue);
+		b2.setBackground(Color.green);
+		p2.add(b2);
+		
+		setVisible(true);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+	}
+	public static void main(String[] args) {
+		MyFrame05 f = new MyFrame05();
+
+	}
+
+}

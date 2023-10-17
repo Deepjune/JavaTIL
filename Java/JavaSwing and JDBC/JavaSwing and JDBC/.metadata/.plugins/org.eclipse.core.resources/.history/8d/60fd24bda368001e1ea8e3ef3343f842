@@ -1,0 +1,17 @@
+package exam03;
+
+import javax.swing.JFrame;
+
+public class Calculator extends JFrame {
+	public Calculator() {
+		setTitle("");
+		setsize(300,300);
+	}
+	
+	
+	public static void main(String[] args) {
+		Calculator c = new Calculator();
+
+	}
+
+}

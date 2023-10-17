@@ -1,0 +1,16 @@
+package exam03;
+
+import javax.swing.JFrame;
+
+public class LoginWindow extends JFrame {
+	setTitle("login window");
+	
+	
+	
+	
+	public static void main(String[] args) {
+		LoginWindow l = new LoginWindow();
+
+	}
+
+}

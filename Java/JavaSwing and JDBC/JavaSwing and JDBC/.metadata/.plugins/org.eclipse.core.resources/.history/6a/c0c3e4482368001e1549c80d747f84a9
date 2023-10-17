@@ -1,0 +1,22 @@
+package exam01;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class MyFrame05 extends JFrame {
+	public MyFrame05() {
+		setSize(300, 150);
+		setTitle("");
+		
+		JPanel p1 = new JPanel();
+		JPanel p2 = new JPanel();
+		add(p1);
+		
+		add(p2);
+	}
+	public static void main(String[] args) {
+		MyFrame05 f = new MyFrame05();
+
+	}
+
+}

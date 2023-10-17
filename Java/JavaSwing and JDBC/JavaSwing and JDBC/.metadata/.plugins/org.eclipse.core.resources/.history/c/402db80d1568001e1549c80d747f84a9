@@ -1,0 +1,10 @@
+package exam01;
+import javax.swing.*;
+
+public class FrameTest {
+	public static void main(String[] args) {
+		JFrame f = new JFrame("Frame Test");
+
+	}
+
+}

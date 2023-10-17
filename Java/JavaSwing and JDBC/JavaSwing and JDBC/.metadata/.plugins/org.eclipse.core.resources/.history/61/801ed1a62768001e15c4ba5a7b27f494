@@ -1,0 +1,13 @@
+package exam03;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class LabelTest extends JFrame {
+	private JPanel panel;
+	public static void main(String[] args) {
+		LabelTest l = new LabelTest();
+
+	}
+
+}

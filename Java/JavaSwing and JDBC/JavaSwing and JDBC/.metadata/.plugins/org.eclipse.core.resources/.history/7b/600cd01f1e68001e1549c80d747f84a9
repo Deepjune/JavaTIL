@@ -1,0 +1,20 @@
+package exam02;
+
+import java.awt.FlowLayout;
+
+import javax.swing.JFrame;
+
+public class MyFrame01 extends JFrame {
+	public MyFrame01() {
+		setTitle("FlowLayoutTest");
+		setSize(300, 150);
+		
+		setLayout(new FlowLayout());
+	}
+	
+	public static void main(String[] args) {
+		MyFrame01 f = new MyFrame01();
+
+	}
+
+}

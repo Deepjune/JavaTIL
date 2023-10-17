@@ -1,0 +1,14 @@
+package exam01;
+
+import javax.swing.*;
+
+public class MyFrame03 extends JFrame {
+	
+	
+	
+	public static void main(String[] args) {
+		MyFrame03 f = new MtFrame03();
+
+	}
+
+}
