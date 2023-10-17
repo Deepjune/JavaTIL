@@ -63,4 +63,5 @@ public class MoveCar extends JFrame {
   public static void main(String[] args) {
     MoveCar m = new MoveCar();
   }
+
 }
